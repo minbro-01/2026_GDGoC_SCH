@@ -429,3 +429,355 @@ button.ghost {
   justify-content: space-between;
   align-items: center;
 }
+
+/* 투자 판단 훈련 */
+.judgment-page .page-header > div {
+  min-width: 0;
+}
+
+.judgment-page .page-header p {
+  margin: 3px 0 0;
+}
+
+.training-intro,
+.event-panel,
+.detail-card,
+.source-box,
+.score-hero,
+.outcome-card,
+.coach-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 16px;
+  margin: 14px 0;
+}
+
+.training-intro p,
+.event-panel p,
+.source-box p,
+.coach-card p,
+.outcome-card p {
+  color: var(--text-sub);
+  font-size: 0.88rem;
+  margin: 8px 0 0;
+}
+
+.training-actions,
+.scenario-card-top,
+.scenario-price-row,
+.news-card > div,
+.dimension-list article > div:first-child,
+.history-list a > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.training-actions {
+  margin: 18px 0 10px;
+  font-size: 0.85rem;
+}
+
+.scenario-list,
+.news-list,
+.dimension-list,
+.history-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.scenario-card,
+.news-card,
+.dimension-list article,
+.history-list a {
+  color: var(--text);
+  text-decoration: none;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 15px;
+}
+
+.scenario-card:hover,
+.history-list a:hover {
+  border-color: var(--primary);
+}
+
+.scenario-card h2,
+.news-card h2 {
+  font-size: 1rem;
+  margin: 12px 0 2px;
+}
+
+.scenario-card p,
+.news-card p {
+  color: var(--text-sub);
+  font-size: 0.82rem;
+  margin: 0 0 12px;
+}
+
+.ticker-badge,
+.event-badge {
+  border-radius: 999px;
+  font-size: 0.72rem;
+  padding: 4px 9px;
+  font-weight: 700;
+}
+
+.ticker-badge {
+  color: var(--primary);
+  background: color-mix(in srgb, var(--primary) 10%, transparent);
+}
+
+.event-badge.crisis,
+.event-panel.crisis {
+  color: var(--danger);
+  border-color: color-mix(in srgb, var(--danger) 35%, var(--border));
+}
+
+.event-badge.boom,
+.event-panel.boom {
+  color: #16803c;
+  border-color: color-mix(in srgb, #16a34a 35%, var(--border));
+}
+
+.positive { color: #16803c; }
+.negative { color: var(--danger); }
+
+.scenario-price-row strong,
+.price-hero strong {
+  font-size: 1.45rem;
+}
+
+.scenario-price-row span,
+.price-hero span {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.price-hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 18px 0;
+}
+
+.detail-tabs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 5px;
+  margin-top: 16px;
+}
+
+.detail-tabs button {
+  background: transparent;
+  color: var(--text-sub);
+  padding: 9px 4px;
+  font-size: 0.86rem;
+}
+
+.detail-tabs button.active {
+  color: #fff;
+  background: var(--primary);
+}
+
+.price-chart {
+  color: #10b981;
+}
+
+.price-chart svg {
+  display: block;
+  width: 100%;
+  min-height: 160px;
+}
+
+.chart-labels {
+  display: flex;
+  justify-content: space-between;
+  color: var(--text-sub);
+  font-size: 0.72rem;
+}
+
+.future-hidden {
+  color: var(--text-sub);
+  text-align: center;
+  font-size: 0.78rem;
+}
+
+.news-card time,
+.news-card > div span {
+  color: var(--text-sub);
+  font-size: 0.72rem;
+}
+
+.metric-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin: 14px 0;
+}
+
+.metric-grid > div {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 13px;
+}
+
+.metric-grid span,
+.score-hero span,
+.outcome-card > span {
+  color: var(--text-sub);
+  font-size: 0.75rem;
+}
+
+.source-box h2,
+.coach-card h2 {
+  font-size: 0.95rem;
+}
+
+.source-box a {
+  display: block;
+  font-size: 0.8rem;
+  margin: 8px 0;
+  overflow-wrap: anywhere;
+}
+
+.primary-link,
+.secondary-link {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 13px 16px;
+  font-weight: 700;
+}
+
+.primary-link {
+  color: #fff;
+  background: var(--primary);
+  margin-top: 16px;
+}
+
+.secondary-link {
+  color: var(--text);
+  border: 1px solid var(--border);
+}
+
+.judgment-form,
+.judgment-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.judgment-form {
+  gap: 22px;
+}
+
+.judgment-form label > span {
+  font-size: 0.92rem;
+  font-weight: 600;
+}
+
+.judgment-form textarea,
+.judgment-form select {
+  width: 100%;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--surface);
+  color: var(--text);
+  padding: 12px;
+  font: inherit;
+  resize: vertical;
+}
+
+.judgment-form small {
+  text-align: right;
+}
+
+.decision-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.score-hero,
+.outcome-card {
+  text-align: center;
+}
+
+.score-hero strong {
+  display: block;
+  color: var(--primary);
+  font-size: 3rem;
+  line-height: 1.1;
+  margin: 8px 0;
+}
+
+.score-hero small {
+  font-size: 1rem;
+  color: var(--text-sub);
+}
+
+.score-hero p {
+  margin: 0;
+  font-size: 0.82rem;
+}
+
+.outcome-card strong {
+  display: block;
+  font-size: 2rem;
+  margin-top: 6px;
+}
+
+.dimension-list article p {
+  color: var(--text-sub);
+  font-size: 0.8rem;
+  margin: 8px 0 0;
+}
+
+.dimension-bar {
+  height: 7px;
+  background: var(--border);
+  border-radius: 999px;
+  overflow: hidden;
+  margin-top: 9px;
+}
+
+.dimension-bar i {
+  display: block;
+  height: 100%;
+  background: var(--primary);
+}
+
+.result-actions {
+  display: grid;
+  gap: 8px;
+}
+
+.history-list a > div + div {
+  margin-top: 8px;
+  font-size: 0.85rem;
+}
+
+.history-list span {
+  color: var(--text-sub);
+}
+
+@media (max-width: 380px) {
+  .decision-grid,
+  .metric-grid {
+    grid-template-columns: 1fr;
+  }
+}

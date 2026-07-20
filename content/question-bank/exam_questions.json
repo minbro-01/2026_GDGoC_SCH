@@ -1,0 +1,1452 @@
+{
+  "meta": {
+    "total": 103,
+    "tiers": [
+      "bronze",
+      "silver",
+      "gold",
+      "platinum",
+      "diamond",
+      "master"
+    ]
+  },
+  "exams": {
+    "bronze": {
+      "tier": "브론즈",
+      "name": "브론즈 승급 시험",
+      "passing_score": 70,
+      "time_limit_minutes": 20,
+      "description": "초급 개념 이해도 확인",
+      "questions": [
+        {
+          "id": 1,
+          "type": "multiple_choice",
+          "category": "기초개념",
+          "question": "주식을 매수하면 투자자는 어떤 지위를 갖게 되는가?",
+          "options": [
+            "A. 채권자",
+            "B. 주주",
+            "C. 보증인",
+            "D. 예금자"
+          ],
+          "answer": "B",
+          "explanation": "주식 보유자는 해당 기업의 주주로서 의결권과 배당 수령 권리를 갖는다.",
+          "tier": "bronze"
+        },
+        {
+          "id": 2,
+          "type": "multiple_choice",
+          "category": "기초개념",
+          "question": "한국 주식시장의 1일 가격 제한폭(상한가/하한가)은?",
+          "options": [
+            "A. ±10%",
+            "B. ±15%",
+            "C. ±20%",
+            "D. ±30%"
+          ],
+          "answer": "D",
+          "explanation": "한국 주식시장 가격 제한폭은 ±30%다.",
+          "tier": "bronze"
+        },
+        {
+          "id": 3,
+          "type": "multiple_choice",
+          "category": "투자용어",
+          "question": "'손절'의 올바른 정의는?",
+          "options": [
+            "A. 이익이 났을 때 파는 것",
+            "B. 추가 매수해 단가를 낮추는 것",
+            "C. 손실이 났지만 더 큰 손실을 막기 위해 매도하는 것",
+            "D. 배당을 포기하는 것"
+          ],
+          "answer": "C",
+          "explanation": "손절(損切)은 추가 손실 방지를 위한 리스크 관리 행동이다.",
+          "tier": "bronze"
+        },
+        {
+          "id": 4,
+          "type": "multiple_choice",
+          "category": "주요지수",
+          "question": "코스닥(KOSDAQ)에 주로 상장된 기업의 특징은?",
+          "options": [
+            "A. 국영기업",
+            "B. 대형 수출 기업",
+            "C. 중소·벤처·기술 성장 기업",
+            "D. 외국계 기업"
+          ],
+          "answer": "C",
+          "explanation": "코스닥은 중소·벤처·기술 기업 중심의 시장이다.",
+          "tier": "bronze"
+        },
+        {
+          "id": 5,
+          "type": "multiple_choice",
+          "category": "투자용어",
+          "question": "'시가총액'의 계산식으로 옳은 것은?",
+          "options": [
+            "A. 주가 + 발행주식수",
+            "B. 주가 × 발행주식수",
+            "C. 순이익 × PER",
+            "D. 자기자본 ÷ 발행주식수"
+          ],
+          "answer": "B",
+          "explanation": "시가총액 = 현재 주가 × 총 발행주식수.",
+          "tier": "bronze"
+        },
+        {
+          "id": 6,
+          "type": "multiple_choice",
+          "category": "투자용어",
+          "question": "ETF(상장지수펀드)의 특징으로 옳은 것은?",
+          "options": [
+            "A. 하루에 한 번만 거래 가능하다",
+            "B. 주식처럼 거래소에서 실시간 매매 가능하다",
+            "C. 원금이 보장된다",
+            "D. 배당을 절대 지급하지 않는다"
+          ],
+          "answer": "B",
+          "explanation": "ETF는 펀드이지만 주식처럼 거래소에서 실시간으로 매매할 수 있다.",
+          "tier": "bronze"
+        },
+        {
+          "id": 7,
+          "type": "multiple_choice",
+          "category": "기초개념",
+          "question": "한국 주식 정규 거래 시간은?",
+          "options": [
+            "A. 08:00~15:00",
+            "B. 09:00~15:30",
+            "C. 09:30~16:00",
+            "D. 08:30~14:30"
+          ],
+          "answer": "B",
+          "explanation": "KRX 정규 거래 시간은 오전 9시~오후 3시 30분이다.",
+          "tier": "bronze"
+        },
+        {
+          "id": 8,
+          "type": "multiple_choice",
+          "category": "투자용어",
+          "question": "'분산투자'를 하는 가장 큰 이유는?",
+          "options": [
+            "A. 수익률 극대화",
+            "B. 세금 절감",
+            "C. 투자 위험 분산",
+            "D. 거래 수수료 절감"
+          ],
+          "answer": "C",
+          "explanation": "분산투자는 한 종목 급락 시 전체 손실을 줄이는 리스크 관리 전략이다.",
+          "tier": "bronze"
+        },
+        {
+          "id": 9,
+          "type": "multiple_choice",
+          "category": "시나리오",
+          "question": "친구가 '이 종목 유튜버가 강력 추천했으니 당장 사라'고 한다. 올바른 행동은?",
+          "options": [
+            "A. 바로 매수한다",
+            "B. 유튜버 채널 구독 후 전부 매수한다",
+            "C. 해당 기업의 재무·사업 내용을 직접 확인 후 판단한다",
+            "D. 반대로 공매도한다"
+          ],
+          "answer": "C",
+          "explanation": "타인 추천만으로 매수하는 것은 위험하다. 기업 펀더멘털을 직접 확인하는 습관이 중요하다.",
+          "tier": "bronze"
+        },
+        {
+          "id": 10,
+          "type": "multiple_choice",
+          "category": "시나리오",
+          "question": "주식 계좌에 100만 원이 있다. 가장 현명한 초보자 투자 방법은?",
+          "options": [
+            "A. 한 종목에 100만 원 전부 투자",
+            "B. 레버리지 ETF로 수익 극대화",
+            "C. 여러 종목이나 ETF에 나눠 투자하고 나머지는 현금 보유",
+            "D. 지인 추천 코인에 투자"
+          ],
+          "answer": "C",
+          "explanation": "초보자는 분산투자와 여유 자금 보유가 기본 원칙이다.",
+          "tier": "bronze"
+        },
+        {
+          "id": 11,
+          "type": "multiple_choice",
+          "category": "시나리오",
+          "question": "주가가 매수가 대비 -20% 하락했다. 어떤 판단이 가장 합리적인가?",
+          "options": [
+            "A. 무조건 손절한다",
+            "B. 무조건 추가 매수(물타기)한다",
+            "C. 기업의 펀더멘털 변화 여부를 확인 후 결정한다",
+            "D. 아무것도 하지 않는다"
+          ],
+          "answer": "C",
+          "explanation": "하락 시에는 기업 가치 변화 여부를 먼저 점검하는 것이 합리적이다.",
+          "tier": "bronze"
+        },
+        {
+          "id": 12,
+          "type": "ox",
+          "category": "기초개념",
+          "question": "주식에 투자하면 원금이 항상 보장된다.",
+          "answer": false,
+          "explanation": "주식은 원금 비보장 위험 자산이다.",
+          "tier": "bronze"
+        },
+        {
+          "id": 13,
+          "type": "ox",
+          "category": "투자용어",
+          "question": "배당금은 기업이 반드시 매년 지급해야 한다.",
+          "answer": false,
+          "explanation": "배당은 기업의 선택 사항이며, 성장 기업은 배당을 하지 않기도 한다.",
+          "tier": "bronze"
+        },
+        {
+          "id": 14,
+          "type": "ox",
+          "category": "시나리오",
+          "question": "코스피 지수가 하락해도 특정 개별 종목은 상승할 수 있다.",
+          "answer": true,
+          "explanation": "지수는 전체 평균이므로, 지수 하락과 개별 종목 상승은 동시에 가능하다.",
+          "tier": "bronze"
+        },
+        {
+          "id": 15,
+          "type": "ox",
+          "category": "시나리오",
+          "question": "'주가가 많이 올랐으니 곧 내릴 것'이라는 판단은 항상 옳다.",
+          "answer": false,
+          "explanation": "주가가 오른다고 반드시 하락하지 않는다. 강한 추세는 지속될 수 있으며, 단순한 고점 판단은 위험하다.",
+          "tier": "bronze"
+        }
+      ]
+    },
+    "silver": {
+      "tier": "실버",
+      "name": "실버 승급 시험",
+      "passing_score": 75,
+      "time_limit_minutes": 25,
+      "description": "재무지표·차트 기초 응용",
+      "questions": [
+        {
+          "id": 16,
+          "type": "multiple_choice",
+          "category": "재무지표",
+          "question": "PER이 10이고 EPS가 2,000원일 때 현재 주가는?",
+          "options": [
+            "A. 5,000원",
+            "B. 10,000원",
+            "C. 20,000원",
+            "D. 2,000원"
+          ],
+          "answer": "C",
+          "explanation": "주가 = PER × EPS = 10 × 2,000 = 20,000원.",
+          "tier": "silver"
+        },
+        {
+          "id": 17,
+          "type": "multiple_choice",
+          "category": "재무지표",
+          "question": "ROE(자기자본이익률)가 높다는 것의 의미로 가장 적절한 것은?",
+          "options": [
+            "A. 부채가 많다",
+            "B. 주가가 높다",
+            "C. 자기 자본을 효율적으로 활용해 이익을 낸다",
+            "D. 배당을 많이 준다"
+          ],
+          "answer": "C",
+          "explanation": "ROE = 순이익 ÷ 자기자본. 높을수록 자본 활용 효율이 높다.",
+          "tier": "silver"
+        },
+        {
+          "id": 18,
+          "type": "multiple_choice",
+          "category": "재무지표",
+          "question": "부채비율이 200%인 기업의 의미로 옳은 것은?",
+          "options": [
+            "A. 자기자본이 부채의 2배",
+            "B. 부채가 자기자본의 2배",
+            "C. 자산의 200%가 부채",
+            "D. 매출의 2배가 부채"
+          ],
+          "answer": "B",
+          "explanation": "부채비율 = 총부채 ÷ 자기자본 × 100. 200%면 부채가 자본의 2배.",
+          "tier": "silver"
+        },
+        {
+          "id": 19,
+          "type": "multiple_choice",
+          "category": "차트분석",
+          "question": "캔들 차트에서 '아래 꼬리가 매우 긴 양봉'이 시사하는 것은?",
+          "options": [
+            "A. 강한 매도 압력",
+            "B. 장중 큰 낙폭을 매수세가 방어하며 반등했다는 신호",
+            "C. 거래량이 급감했다",
+            "D. 상한가 직전 신호"
+          ],
+          "answer": "B",
+          "explanation": "긴 아래 꼬리는 저점에서 강한 매수세가 유입됐음을 나타낸다.",
+          "tier": "silver"
+        },
+        {
+          "id": 20,
+          "type": "multiple_choice",
+          "category": "차트분석",
+          "question": "20일 이동평균선이 60일 이동평균선을 위로 돌파할 때 이를 무엇이라 하는가?",
+          "options": [
+            "A. 데드 크로스",
+            "B. 볼린저 밴드 수렴",
+            "C. 골든 크로스",
+            "D. 서킷 브레이커"
+          ],
+          "answer": "C",
+          "explanation": "골든 크로스는 단기선이 장기선을 상향 돌파하는 상승 전환 신호다.",
+          "tier": "silver"
+        },
+        {
+          "id": 21,
+          "type": "multiple_choice",
+          "category": "시장제도",
+          "question": "'공매도'로 수익을 내려면 어떤 시나리오가 필요한가?",
+          "options": [
+            "A. 주가가 오를 것이라 예상",
+            "B. 주가가 내릴 것이라 예상",
+            "C. 배당이 많이 나올 것이라 예상",
+            "D. 거래량이 증가할 것이라 예상"
+          ],
+          "answer": "B",
+          "explanation": "공매도는 주식을 빌려 먼저 팔고 주가 하락 후 싸게 사서 갚아 차익을 얻는 방식이다.",
+          "tier": "silver"
+        },
+        {
+          "id": 22,
+          "type": "multiple_choice",
+          "category": "투자용어",
+          "question": "'배당수익률'의 계산식으로 옳은 것은?",
+          "options": [
+            "A. 배당금 ÷ 시가총액 × 100",
+            "B. 주당 배당금 ÷ 현재 주가 × 100",
+            "C. 순이익 ÷ 배당금 × 100",
+            "D. EPS ÷ 주가 × 100"
+          ],
+          "answer": "B",
+          "explanation": "배당수익률 = 주당 배당금 ÷ 현재 주가 × 100(%).",
+          "tier": "silver"
+        },
+        {
+          "id": 23,
+          "type": "multiple_choice",
+          "category": "시나리오",
+          "question": "A사 PER: 8, B사 PER: 25. 두 회사는 동일 업종이다. 어느 쪽이 상대적 저평가일 가능성이 높은가?",
+          "options": [
+            "A. B사 (PER 높으니 인기가 많다)",
+            "B. A사 (이익 대비 주가가 낮다)",
+            "C. 둘 다 동일하다",
+            "D. PER만으로는 판단 불가"
+          ],
+          "answer": "B",
+          "explanation": "동일 업종 내에서 PER이 낮은 종목이 상대적으로 저평가됐을 가능성이 높다. 단 PER만으로 단정할 수 없다는 D도 맞지만 선택지 중 가장 적절한 것은 B다.",
+          "tier": "silver"
+        },
+        {
+          "id": 24,
+          "type": "multiple_choice",
+          "category": "시나리오",
+          "question": "뉴스: '연준, 기준금리 0.5%p 인상'. 일반적으로 성장주(고PER)에 미치는 영향은?",
+          "options": [
+            "A. 성장주에 긍정적",
+            "B. 성장주에 부정적 (할인율 상승으로 미래 이익 가치 하락)",
+            "C. 가치주에만 영향을 미친다",
+            "D. 주식시장 전체에 영향 없음"
+          ],
+          "answer": "B",
+          "explanation": "금리 인상은 미래 이익의 현재 가치를 낮춰 고PER 성장주에 더 큰 하방 압력을 준다.",
+          "tier": "silver"
+        },
+        {
+          "id": 25,
+          "type": "multiple_choice",
+          "category": "시나리오",
+          "question": "차트에서 주가가 특정 가격대에서 세 번 반등했다. 이 가격대를 무엇이라 하는가?",
+          "options": [
+            "A. 저항선",
+            "B. 지지선",
+            "C. 이동평균선",
+            "D. 볼린저 밴드 하단"
+          ],
+          "answer": "B",
+          "explanation": "여러 번 반등한 가격대는 강한 지지선으로 볼 수 있다.",
+          "tier": "silver"
+        },
+        {
+          "id": 26,
+          "type": "multiple_choice",
+          "category": "시나리오",
+          "question": "A기업: 매출 1,000억, 영업이익 50억 / B기업: 매출 500억, 영업이익 60억. 영업이익률이 더 높은 기업은?",
+          "options": [
+            "A. A기업 (5%)",
+            "B. B기업 (12%)",
+            "C. 동일하다",
+            "D. 판단 불가"
+          ],
+          "answer": "B",
+          "explanation": "영업이익률 = 영업이익 ÷ 매출. A: 5%, B: 12%. B기업이 더 효율적이다.",
+          "tier": "silver"
+        },
+        {
+          "id": 27,
+          "type": "ox",
+          "category": "재무지표",
+          "question": "PBR이 1 미만이면 주가가 기업 순자산보다 낮게 평가된 것이다.",
+          "answer": true,
+          "explanation": "PBR < 1은 시장 가치가 장부상 순자산보다 낮다는 의미로 저평가 가능성을 시사한다.",
+          "tier": "silver"
+        },
+        {
+          "id": 28,
+          "type": "ox",
+          "category": "차트분석",
+          "question": "거래량이 급감하면서 주가가 오르면 신뢰도 높은 상승 신호다.",
+          "answer": false,
+          "explanation": "거래량 뒷받침 없는 주가 상승은 신뢰도가 낮고 지속성이 부족할 수 있다.",
+          "tier": "silver"
+        },
+        {
+          "id": 29,
+          "type": "ox",
+          "category": "시나리오",
+          "question": "이동평균선은 미래 주가를 예측하는 선행 지표다.",
+          "answer": false,
+          "explanation": "이동평균선은 과거 가격의 평균으로 만든 후행 지표다.",
+          "tier": "silver"
+        },
+        {
+          "id": 30,
+          "type": "ox",
+          "category": "시나리오",
+          "question": "같은 업종 내에서 PER을 비교하는 것이 업종 간 비교보다 더 유의미하다.",
+          "answer": true,
+          "explanation": "PER의 적정 수준은 업종마다 달라 동일 업종 내 비교가 더 의미 있다.",
+          "tier": "silver"
+        }
+      ]
+    },
+    "gold": {
+      "tier": "골드",
+      "name": "골드 승급 시험",
+      "passing_score": 80,
+      "time_limit_minutes": 30,
+      "description": "중급 심화 및 시나리오 분석",
+      "questions": [
+        {
+          "id": 31,
+          "type": "multiple_choice",
+          "category": "재무지표",
+          "question": "EBITDA를 구하는 식으로 옳은 것은?",
+          "options": [
+            "A. 매출 - 원가",
+            "B. 순이익 + 이자 + 세금 + 감가상각",
+            "C. 영업이익 + 배당",
+            "D. FCF + CAPEX"
+          ],
+          "answer": "B",
+          "explanation": "EBITDA = 순이익 + 이자비용 + 세금 + 감가상각비.",
+          "tier": "gold"
+        },
+        {
+          "id": 32,
+          "type": "multiple_choice",
+          "category": "재무지표",
+          "question": "'이자보상배율'이 0.8이라는 의미는?",
+          "options": [
+            "A. 이자를 80% 이상 갚을 수 있다",
+            "B. 영업이익으로 이자도 감당 못하는 상태",
+            "C. 부채가 자본의 0.8배",
+            "D. 배당이 주가의 0.8%"
+          ],
+          "answer": "B",
+          "explanation": "이자보상배율 = 영업이익 ÷ 이자비용. 1 미만이면 영업이익으로 이자를 감당 못하는 위험 상태다.",
+          "tier": "gold"
+        },
+        {
+          "id": 33,
+          "type": "multiple_choice",
+          "category": "차트분석",
+          "question": "헤드앤숄더(Head and Shoulders) 패턴에서 '넥라인'을 하향 이탈하면?",
+          "options": [
+            "A. 강한 상승 신호",
+            "B. 하락 전환 확인 신호",
+            "C. 횡보 지속 신호",
+            "D. 거래량 급감 신호"
+          ],
+          "answer": "B",
+          "explanation": "넥라인 하향 이탈은 헤드앤숄더 패턴의 하락 전환을 확인하는 신호다.",
+          "tier": "gold"
+        },
+        {
+          "id": 34,
+          "type": "multiple_choice",
+          "category": "투자전략",
+          "question": "'달러 코스트 에버리징(DCA)'의 핵심 장점은?",
+          "options": [
+            "A. 항상 최저점에서 매수 가능",
+            "B. 시장 타이밍 예측 없이 평균 매입 단가 관리",
+            "C. 수익률이 시장 평균의 2배",
+            "D. 손실이 발생하지 않음"
+          ],
+          "answer": "B",
+          "explanation": "DCA는 정기적으로 일정 금액을 투자해 시장 고점·저점 예측 없이 평균 단가를 관리한다.",
+          "tier": "gold"
+        },
+        {
+          "id": 35,
+          "type": "multiple_choice",
+          "category": "거시경제",
+          "question": "'장단기 금리 역전(국채 10년물 < 2년물)'이 역사적으로 시사하는 바는?",
+          "options": [
+            "A. 경기 과열 신호",
+            "B. 경기 침체 예고 신호",
+            "C. 인플레이션 안정 신호",
+            "D. 주식 급등 선행 신호"
+          ],
+          "answer": "B",
+          "explanation": "장단기 금리 역전은 역사적으로 경기 침체의 선행 지표로 자주 나타난다.",
+          "tier": "gold"
+        },
+        {
+          "id": 36,
+          "type": "multiple_choice",
+          "category": "재무지표",
+          "question": "FCF(자유현금흐름)의 계산식은?",
+          "options": [
+            "A. 순이익 - 세금",
+            "B. 영업활동 현금흐름 - CAPEX",
+            "C. 매출 - 원가 - 판관비",
+            "D. EBITDA - 이자"
+          ],
+          "answer": "B",
+          "explanation": "FCF = 영업활동 현금흐름 - 자본적 지출(CAPEX). 기업이 자유롭게 사용 가능한 현금이다.",
+          "tier": "gold"
+        },
+        {
+          "id": 37,
+          "type": "multiple_choice",
+          "category": "시나리오",
+          "question": "A기업: ROE 5%, 부채비율 30% / B기업: ROE 20%, 부채비율 250%. 장기 투자 관점에서 어떻게 평가하겠는가?",
+          "options": [
+            "A. B기업이 ROE가 높으니 무조건 좋다",
+            "B. A기업이 재무 안전성이 높지만 수익성은 낮다. B기업은 레버리지로 ROE를 높였을 가능성이 있어 부채 리스크를 함께 봐야 한다",
+            "C. 둘 다 투자 가치 없다",
+            "D. 부채비율이 높을수록 좋은 기업이다"
+          ],
+          "answer": "B",
+          "explanation": "ROE가 높아도 과도한 레버리지에서 비롯됐을 수 있으므로 부채비율을 함께 확인해야 한다.",
+          "tier": "gold"
+        },
+        {
+          "id": 38,
+          "type": "multiple_choice",
+          "category": "시나리오",
+          "question": "뉴스: '삼성전자, 2분기 영업이익 컨센서스 대비 30% 상회'. 단기 주가에 미칠 일반적 영향은?",
+          "options": [
+            "A. 주가 하락",
+            "B. 주가 상승 (어닝 서프라이즈)",
+            "C. 주가 무변동",
+            "D. 배당 감소"
+          ],
+          "answer": "B",
+          "explanation": "실적이 컨센서스를 크게 웃도는 어닝 서프라이즈는 단기 주가 급등 요인이다.",
+          "tier": "gold"
+        },
+        {
+          "id": 39,
+          "type": "multiple_choice",
+          "category": "시나리오",
+          "question": "차트에서 볼린저 밴드가 급격히 수렴(좁아짐)하고 있다. 가장 적절한 해석은?",
+          "options": [
+            "A. 변동성이 낮게 지속될 것이다",
+            "B. 에너지 축적 후 급격한 방향성 돌파 가능성이 있다",
+            "C. 하락이 확정됐다",
+            "D. 매수 신호다"
+          ],
+          "answer": "B",
+          "explanation": "볼린저 밴드 수렴(스퀴즈)은 큰 변동성 돌파의 전조 신호로 상하 어느 방향으로든 큰 움직임이 나올 수 있다.",
+          "tier": "gold"
+        },
+        {
+          "id": 40,
+          "type": "multiple_choice",
+          "category": "시나리오",
+          "question": "경기 침체 초입 국면이라는 신호가 나오고 있다. 섹터 로테이션 관점에서 어느 섹터가 상대적으로 유리한가?",
+          "options": [
+            "A. 자동차·철강 등 경기민감주",
+            "B. 필수소비재·유틸리티·헬스케어 등 방어주",
+            "C. 반도체·AI 성장주",
+            "D. 항공·레저"
+          ],
+          "answer": "B",
+          "explanation": "경기 침체 국면에서는 경기 무관 수요가 있는 필수소비재·유틸리티·헬스케어 방어주가 상대적으로 유리하다.",
+          "tier": "gold"
+        },
+        {
+          "id": 41,
+          "type": "multiple_choice",
+          "category": "시나리오",
+          "question": "A기업의 FCF가 3년 연속 마이너스다. 어떻게 해석해야 하는가?",
+          "options": [
+            "A. 반드시 부실 기업이다",
+            "B. 영업으로 번 현금보다 투자 지출이 많다는 뜻으로, 성장 투자 중인지 구조적 문제인지 확인이 필요하다",
+            "C. 주가가 오를 것이다",
+            "D. 배당을 많이 줄 것이다"
+          ],
+          "answer": "B",
+          "explanation": "FCF 마이너스가 반드시 나쁜 것은 아니다. 고성장 기업은 투자를 위해 FCF가 마이너스일 수 있으므로 맥락 파악이 중요하다.",
+          "tier": "gold"
+        },
+        {
+          "id": 42,
+          "type": "ox",
+          "category": "재무지표",
+          "question": "영업이익이 흑자여도 당기순이익은 적자일 수 있다.",
+          "answer": true,
+          "explanation": "이자비용, 세금, 일회성 손실 등으로 영업이익이 흑자여도 순이익은 적자가 될 수 있다.",
+          "tier": "gold"
+        },
+        {
+          "id": 43,
+          "type": "ox",
+          "category": "거시경제",
+          "question": "원/달러 환율 상승(원화 약세)은 수출 중심 기업의 원화 기준 실적에 긍정적이다.",
+          "answer": true,
+          "explanation": "달러로 받은 수출 대금이 원화로 환산될 때 더 많아지므로 수출 기업 실적에 긍정적이다.",
+          "tier": "gold"
+        },
+        {
+          "id": 44,
+          "type": "ox",
+          "category": "시나리오",
+          "question": "헤드앤숄더 패턴은 상승 추세의 지속 신호다.",
+          "answer": false,
+          "explanation": "헤드앤숄더는 상승 추세 후 하락 전환을 나타내는 패턴이다.",
+          "tier": "gold"
+        },
+        {
+          "id": 45,
+          "type": "ox",
+          "category": "투자전략",
+          "question": "가치투자는 항상 단기 수익을 보장한다.",
+          "answer": false,
+          "explanation": "가치투자는 내재가치가 인정받을 때까지 시간이 필요한 장기 전략으로, 단기 수익을 보장하지 않는다.",
+          "tier": "gold"
+        },
+        {
+          "id": 46,
+          "type": "ox",
+          "category": "시나리오",
+          "question": "기업의 매출이 증가해도 순이익이 감소할 수 있다.",
+          "answer": true,
+          "explanation": "원가율 상승, 판관비 급증, 이자비용 증가 등으로 매출 성장에도 순이익이 줄 수 있다.",
+          "tier": "gold"
+        },
+        {
+          "id": 47,
+          "type": "multiple_choice",
+          "category": "시나리오",
+          "question": "투자 포트폴리오에서 상관관계가 낮은 자산을 혼합하는 이유는?",
+          "options": [
+            "A. 수익률을 극대화하기 위해",
+            "B. 전체 포트폴리오 위험(변동성)을 줄이기 위해",
+            "C. 거래 수수료를 낮추기 위해",
+            "D. 배당수익을 높이기 위해"
+          ],
+          "answer": "B",
+          "explanation": "상관관계가 낮은 자산 조합은 한 자산 하락 시 다른 자산이 완충해 전체 위험을 줄이는 분산 효과를 높인다.",
+          "tier": "gold"
+        },
+        {
+          "id": 48,
+          "type": "multiple_choice",
+          "category": "재무지표",
+          "question": "듀퐁 분석에서 ROE를 분해하는 세 요소는?",
+          "options": [
+            "A. PER × PBR × EPS",
+            "B. 순이익률 × 자산회전율 × 재무레버리지",
+            "C. 매출성장률 × 영업이익률 × 부채비율",
+            "D. EPS × 배당성향 × PBR"
+          ],
+          "answer": "B",
+          "explanation": "ROE = 순이익률(수익성) × 자산회전율(효율성) × 재무레버리지(안정성).",
+          "tier": "gold"
+        }
+      ]
+    },
+    "platinum": {
+      "tier": "플래티넘",
+      "name": "플래티넘 승급 시험",
+      "passing_score": 80,
+      "time_limit_minutes": 35,
+      "description": "고급 개념 및 복합 시나리오",
+      "questions": [
+        {
+          "id": 49,
+          "type": "multiple_choice",
+          "category": "재무지표",
+          "question": "EV/EBITDA 배수가 낮을수록 의미하는 것은?",
+          "options": [
+            "A. 부채가 많다",
+            "B. 기업 가치 대비 현금 창출 능력이 저평가됐을 가능성",
+            "C. 배당이 낮다",
+            "D. 주가가 낮다"
+          ],
+          "answer": "B",
+          "explanation": "EV/EBITDA가 낮으면 현금 창출 능력 대비 기업이 저평가됐을 가능성이 있다.",
+          "tier": "platinum"
+        },
+        {
+          "id": 50,
+          "type": "multiple_choice",
+          "category": "거시경제",
+          "question": "'테이퍼링(Tapering)'이란?",
+          "options": [
+            "A. 기준금리를 급격히 인상하는 정책",
+            "B. 중앙은행이 자산 매입 규모를 점진적으로 줄여가는 것",
+            "C. 정부가 재정 지출을 확대하는 것",
+            "D. 환율 개입 정책"
+          ],
+          "answer": "B",
+          "explanation": "테이퍼링은 양적완화(QE)에서 자산 매입 규모를 단계적으로 줄이는 유동성 회수 첫 단계다.",
+          "tier": "platinum"
+        },
+        {
+          "id": 51,
+          "type": "multiple_choice",
+          "category": "파생상품",
+          "question": "콜 옵션 매수자의 최대 손실은?",
+          "options": [
+            "A. 무한대",
+            "B. 기초 자산 가격 전체",
+            "C. 지불한 프리미엄",
+            "D. 행사가와 현재가의 차이"
+          ],
+          "answer": "C",
+          "explanation": "옵션 매수자는 행사하지 않으면 프리미엄(옵션 가격)만 잃으므로 최대 손실은 프리미엄이다.",
+          "tier": "platinum"
+        },
+        {
+          "id": 52,
+          "type": "multiple_choice",
+          "category": "파생상품",
+          "question": "채권 가격과 금리(수익률)의 관계는?",
+          "options": [
+            "A. 같은 방향",
+            "B. 반대 방향",
+            "C. 무관",
+            "D. 단기만 반비례"
+          ],
+          "answer": "B",
+          "explanation": "금리가 오르면 기존 채권의 상대적 매력이 낮아져 가격이 하락한다.",
+          "tier": "platinum"
+        },
+        {
+          "id": 53,
+          "type": "multiple_choice",
+          "category": "투자전략",
+          "question": "'롱숏(Long-Short) 전략'의 설명으로 옳은 것은?",
+          "options": [
+            "A. 장기 보유와 단기 매매를 병행",
+            "B. 저평가 종목 매수 + 고평가 종목 공매도로 시장 방향 무관한 수익 추구",
+            "C. 레버리지 2배로 양방향 투자",
+            "D. 배당주 장기 보유"
+          ],
+          "answer": "B",
+          "explanation": "롱숏은 헤지펀드가 많이 쓰는 방식으로 시장 중립적 수익을 추구한다.",
+          "tier": "platinum"
+        },
+        {
+          "id": 54,
+          "type": "multiple_choice",
+          "category": "거시경제",
+          "question": "'스태그플레이션'이란?",
+          "options": [
+            "A. 경기 호황 + 저물가",
+            "B. 경기 침체 + 높은 인플레이션 동시 발생",
+            "C. 금리 인하 + 주가 상승",
+            "D. 수출 증가 + 환율 하락"
+          ],
+          "answer": "B",
+          "explanation": "스태그플레이션은 경기 침체와 인플레이션이 동시에 나타나 통화정책으로 해결하기 어려운 최악의 경제 상황이다.",
+          "tier": "platinum"
+        },
+        {
+          "id": 55,
+          "type": "multiple_choice",
+          "category": "시나리오",
+          "question": "A기업의 3년간 FCF: -500억, -300억, +200억. 이를 어떻게 해석하겠는가?",
+          "options": [
+            "A. 3년 내내 손실이므로 투자 불가",
+            "B. 초기 대규모 투자 후 점차 현금 창출 개선 중. 산업·사업 모델 맥락을 함께 봐야 한다",
+            "C. FCF가 마이너스면 반드시 부실 기업이다",
+            "D. 배당을 많이 줄 것이다"
+          ],
+          "answer": "B",
+          "explanation": "FCF 마이너스가 지속되다 개선되면 성장 투자 후 회수 단계 진입 가능성이 있다. 맥락 파악이 핵심이다.",
+          "tier": "platinum"
+        },
+        {
+          "id": 56,
+          "type": "multiple_choice",
+          "category": "시나리오",
+          "question": "금리 인상 사이클이 시작됐다. 레버리지가 높은 성장주와 배당주 중 어느 쪽이 더 큰 하방 압력을 받는가?",
+          "options": [
+            "A. 배당주",
+            "B. 레버리지 높은 성장주 (이자 부담 증가 + 미래 이익 할인율 상승)",
+            "C. 둘 다 동일",
+            "D. 금리와 주가는 무관"
+          ],
+          "answer": "B",
+          "explanation": "금리 인상은 고레버리지 기업의 이자 부담을 늘리고, 미래 이익 비중이 높은 성장주의 현재 가치를 더 크게 낮춘다.",
+          "tier": "platinum"
+        },
+        {
+          "id": 57,
+          "type": "multiple_choice",
+          "category": "시나리오",
+          "question": "'쇼트 스퀴즈(Short Squeeze)'가 발생하는 상황은?",
+          "options": [
+            "A. 주가가 하락해 공매도 투자자들이 수익 실현",
+            "B. 주가가 급등해 공매도 투자자들이 손절 매수에 나서면서 주가가 더 오르는 현상",
+            "C. 서킷 브레이커 발동 후 급반등",
+            "D. 외국인 대규모 매도"
+          ],
+          "answer": "B",
+          "explanation": "쇼트 스퀴즈는 공매도 포지션 보유자들의 강제 환매수가 주가 상승을 가속화하는 현상이다.",
+          "tier": "platinum"
+        },
+        {
+          "id": 58,
+          "type": "multiple_choice",
+          "category": "시나리오",
+          "question": "경기 선행지수가 3개월 연속 하락하고 있다. 포트폴리오 조정 방향으로 가장 적절한 것은?",
+          "options": [
+            "A. 경기민감주 비중 확대",
+            "B. 방어주 비중 확대 및 현금 비율 높이기",
+            "C. 레버리지 ETF 매수",
+            "D. 공격적으로 성장주 집중 투자"
+          ],
+          "answer": "B",
+          "explanation": "경기 선행지수 하락은 침체 신호. 방어주와 현금 비중을 높여 포트폴리오를 방어적으로 전환하는 것이 합리적이다.",
+          "tier": "platinum"
+        },
+        {
+          "id": 59,
+          "type": "multiple_choice",
+          "category": "시나리오",
+          "question": "동일 업종 두 기업: A사 PEG 0.8 / B사 PEG 1.5. 성장 대비 밸류에이션 관점에서 어느 쪽이 더 매력적인가?",
+          "options": [
+            "A. B사 (PEG 높으니 성장성이 높다)",
+            "B. A사 (PEG 1 미만으로 성장 대비 저평가)",
+            "C. 동일",
+            "D. PEG로는 판단 불가"
+          ],
+          "answer": "B",
+          "explanation": "PEG = PER ÷ 이익성장률. PEG < 1이면 성장 대비 저평가로 판단한다.",
+          "tier": "platinum"
+        },
+        {
+          "id": 60,
+          "type": "ox",
+          "category": "파생상품",
+          "question": "공매도는 이론적으로 손실이 무한대가 될 수 있다.",
+          "answer": true,
+          "explanation": "주가 상승에 상한이 없으므로, 공매도 포지션의 손실도 이론적으로 무한대다.",
+          "tier": "platinum"
+        },
+        {
+          "id": 61,
+          "type": "ox",
+          "category": "거시경제",
+          "question": "테이퍼링 시작은 시장에 긴축 신호로 받아들여져 변동성이 커질 수 있다.",
+          "answer": true,
+          "explanation": "테이퍼링은 유동성 공급 감소를 의미해 자산시장 변동성 확대 요인이 된다.",
+          "tier": "platinum"
+        },
+        {
+          "id": 62,
+          "type": "ox",
+          "category": "투자전략",
+          "question": "EV/EBITDA는 부채가 많은 기업 비교에도 유용하다.",
+          "answer": true,
+          "explanation": "EV는 시가총액 + 순부채로 계산해 부채 구조가 다른 기업 간 비교에 PER보다 유용하다.",
+          "tier": "platinum"
+        },
+        {
+          "id": 63,
+          "type": "ox",
+          "category": "시나리오",
+          "question": "채권 금리가 하락하면 채권 가격은 상승한다.",
+          "answer": true,
+          "explanation": "채권 가격과 금리는 역의 관계다. 금리 하락 시 기존 채권의 상대적 가치가 올라 가격이 상승한다.",
+          "tier": "platinum"
+        },
+        {
+          "id": 64,
+          "type": "multiple_choice",
+          "category": "시나리오",
+          "question": "A 펀드의 베타(Beta)가 1.5다. 시장이 10% 하락할 때 이 펀드는 대략 얼마나 하락하는가?",
+          "options": [
+            "A. 5%",
+            "B. 10%",
+            "C. 15%",
+            "D. 20%"
+          ],
+          "answer": "C",
+          "explanation": "베타 1.5는 시장 대비 1.5배 민감하게 움직인다는 의미. 시장 -10% × 1.5 = 약 -15%.",
+          "tier": "platinum"
+        },
+        {
+          "id": 65,
+          "type": "multiple_choice",
+          "category": "시나리오",
+          "question": "'확증 편향'으로 인한 투자 실수의 예로 가장 적절한 것은?",
+          "options": [
+            "A. 분산투자를 철저히 한다",
+            "B. 이미 매수한 종목의 부정적 뉴스를 무시하고 긍정적 정보만 수집한다",
+            "C. 손절을 즉시 실행한다",
+            "D. 장기 보유 원칙을 지킨다"
+          ],
+          "answer": "B",
+          "explanation": "확증 편향은 기존 믿음을 강화하는 정보만 선택적으로 수집해 객관적 판단을 방해한다.",
+          "tier": "platinum"
+        }
+      ]
+    },
+    "diamond": {
+      "tier": "다이아몬드",
+      "name": "다이아몬드 승급 시험",
+      "passing_score": 85,
+      "time_limit_minutes": 40,
+      "description": "고급 심화 및 포트폴리오 분석",
+      "questions": [
+        {
+          "id": 66,
+          "type": "multiple_choice",
+          "category": "재무지표",
+          "question": "WACC(가중평균자본비용)가 낮아질 때 기업 가치에 미치는 영향은?",
+          "options": [
+            "A. 기업 가치 하락",
+            "B. 기업 가치 상승 (미래 현금흐름 할인율 감소)",
+            "C. 기업 가치 무변화",
+            "D. 부채비율 증가"
+          ],
+          "answer": "B",
+          "explanation": "WACC는 DCF에서 할인율로 사용된다. WACC가 낮아지면 미래 CF의 현재 가치가 높아져 기업 가치가 상승한다.",
+          "tier": "diamond"
+        },
+        {
+          "id": 67,
+          "type": "multiple_choice",
+          "category": "파생상품",
+          "question": "옵션 그리스에서 '세타(Theta)'의 의미는?",
+          "options": [
+            "A. 기초자산 가격 변화에 대한 민감도",
+            "B. 시간이 지남에 따른 옵션 가치 감소율",
+            "C. 변동성 변화에 대한 민감도",
+            "D. 금리 변화에 대한 민감도"
+          ],
+          "answer": "B",
+          "explanation": "세타는 만기가 가까워질수록 옵션의 시간 가치가 감소하는 속도를 나타낸다.",
+          "tier": "diamond"
+        },
+        {
+          "id": 68,
+          "type": "multiple_choice",
+          "category": "거시경제",
+          "question": "'캐리 트레이드(Carry Trade)' 청산이 금융시장에 미치는 영향은?",
+          "options": [
+            "A. 안전자산 수요 감소",
+            "B. 신흥국 자금 이탈 및 환율 급변동 유발 가능",
+            "C. 금리 하락",
+            "D. 주식시장 상승"
+          ],
+          "answer": "B",
+          "explanation": "캐리 트레이드 청산 시 고금리 통화 표시 자산을 팔고 저금리 통화로 환전하는 과정에서 신흥국 자금 이탈과 환율 급변동이 발생할 수 있다.",
+          "tier": "diamond"
+        },
+        {
+          "id": 69,
+          "type": "multiple_choice",
+          "category": "투자전략",
+          "question": "'알파(Alpha) > 0'이 의미하는 것은?",
+          "options": [
+            "A. 시장 수익률보다 낮은 성과",
+            "B. 시장 수익률을 초과한 초과 수익 달성",
+            "C. 변동성이 크다",
+            "D. 배당수익률이 높다"
+          ],
+          "answer": "B",
+          "explanation": "알파는 시장 수익률(베타 수익) 대비 초과 달성한 수익으로 운용 능력을 나타낸다.",
+          "tier": "diamond"
+        },
+        {
+          "id": 70,
+          "type": "multiple_choice",
+          "category": "파생상품",
+          "question": "'내가격(ITM) 콜 옵션'의 상태는?",
+          "options": [
+            "A. 현재 주가 < 행사가",
+            "B. 현재 주가 > 행사가",
+            "C. 현재 주가 = 행사가",
+            "D. 만기가 지난 상태"
+          ],
+          "answer": "B",
+          "explanation": "콜 옵션 ITM은 현재 주가가 행사가보다 높아 즉시 행사 시 이익이 나는 상태다.",
+          "tier": "diamond"
+        },
+        {
+          "id": 71,
+          "type": "multiple_choice",
+          "category": "시나리오",
+          "question": "A기업의 DCF 분석: WACC 10%, 영구성장률 3%, 내년 FCF 1,000억. 터미널 밸류(Terminal Value)는 대략 얼마인가?",
+          "options": [
+            "A. 약 10,000억",
+            "B. 약 14,286억",
+            "C. 약 1,000억",
+            "D. 약 7,000억"
+          ],
+          "answer": "B",
+          "explanation": "터미널 밸류 = FCF ÷ (WACC - g) = 1,000 ÷ (0.10 - 0.03) = 약 14,286억.",
+          "tier": "diamond"
+        },
+        {
+          "id": 72,
+          "type": "multiple_choice",
+          "category": "시나리오",
+          "question": "시장 급락 시 '블랙 스완' 이벤트에 대비하는 포트폴리오 헤지 방법으로 가장 적절한 것은?",
+          "options": [
+            "A. 레버리지 ETF 매수",
+            "B. 풋 옵션 매수 또는 인버스 ETF 보유",
+            "C. 성장주 비중 확대",
+            "D. 공매도 금지"
+          ],
+          "answer": "B",
+          "explanation": "풋 옵션 매수나 인버스 ETF는 시장 급락 시 손실을 상쇄하는 헤지 도구다.",
+          "tier": "diamond"
+        },
+        {
+          "id": 73,
+          "type": "multiple_choice",
+          "category": "시나리오",
+          "question": "A펀드: 수익률 15%, 표준편차 20% / B펀드: 수익률 12%, 표준편차 8%. 샤프비율(무위험 수익률 2%)로 비교하면?",
+          "options": [
+            "A. A펀드 샤프비율이 더 높다 (0.65 vs 1.25)",
+            "B. B펀드 샤프비율이 더 높다 (1.25 vs 0.65)",
+            "C. 동일하다",
+            "D. 샤프비율로 비교 불가"
+          ],
+          "answer": "B",
+          "explanation": "샤프비율 = (수익률 - 무위험률) ÷ 표준편차. A: (15-2)/20=0.65, B: (12-2)/8=1.25. B가 위험 대비 효율이 높다.",
+          "tier": "diamond"
+        },
+        {
+          "id": 74,
+          "type": "multiple_choice",
+          "category": "시나리오",
+          "question": "기업 A: PBR 0.6, ROE 4% / 기업 B: PBR 3.0, ROE 25%. 어느 기업이 더 매력적인가?",
+          "options": [
+            "A. A기업 (PBR이 낮아 저평가)",
+            "B. B기업 (ROE가 높아 자본 효율성 우수)",
+            "C. PBR만으로 단정 불가, ROE와 함께 봐야 함. B가 높은 ROE로 PBR 프리미엄이 정당화될 수 있다",
+            "D. 둘 다 투자 가치 없다"
+          ],
+          "answer": "C",
+          "explanation": "PBR이 낮아도 ROE가 낮으면 저평가의 이유가 있을 수 있다. ROE와 PBR을 함께 보는 것이 핵심이다.",
+          "tier": "diamond"
+        },
+        {
+          "id": 75,
+          "type": "multiple_choice",
+          "category": "시나리오",
+          "question": "포트폴리오의 베타가 1.8이다. 시장 급락을 우려해 베타를 1.0으로 낮추려 한다. 방법으로 옳은 것은?",
+          "options": [
+            "A. 고베타 종목 추가 매수",
+            "B. 고베타 종목 비중 줄이고 저베타(방어주) 또는 채권 비중 확대",
+            "C. 레버리지 ETF 추가",
+            "D. 공매도 전면 금지"
+          ],
+          "answer": "B",
+          "explanation": "베타를 낮추려면 시장 민감도가 낮은 방어주·채권·현금 비중을 늘리고 고베타 종목 비중을 줄여야 한다.",
+          "tier": "diamond"
+        },
+        {
+          "id": 76,
+          "type": "multiple_choice",
+          "category": "시나리오",
+          "question": "'처분 효과(Disposition Effect)'를 극복하는 투자 원칙으로 가장 적절한 것은?",
+          "options": [
+            "A. 수익 종목은 절대 팔지 않는다",
+            "B. 사전에 손절·익절 기준을 정해두고 감정과 무관하게 실행한다",
+            "C. 손실 종목을 무조건 평균 매입단가까지 보유한다",
+            "D. 수익 종목은 빨리, 손실 종목도 빨리 판다"
+          ],
+          "answer": "B",
+          "explanation": "처분 효과 극복을 위해선 매수 전 명확한 손절·익절 기준을 설정하고 원칙대로 실행하는 규율이 필요하다.",
+          "tier": "diamond"
+        },
+        {
+          "id": 77,
+          "type": "ox",
+          "category": "파생상품",
+          "question": "풋 옵션 매수자는 주가 하락 시 이익을 얻는다.",
+          "answer": true,
+          "explanation": "풋 옵션은 특정 가격에 팔 수 있는 권리로 주가가 행사가 아래로 내려갈수록 이익이 커진다.",
+          "tier": "diamond"
+        },
+        {
+          "id": 78,
+          "type": "ox",
+          "category": "거시경제",
+          "question": "필립스 곡선에 따르면 실업률이 낮을수록 인플레이션 압력이 커진다.",
+          "answer": true,
+          "explanation": "필립스 곡선은 실업률과 인플레이션의 역의 관계를 나타낸다. 완전고용 시 임금·물가 상승 압력이 증가한다.",
+          "tier": "diamond"
+        },
+        {
+          "id": 79,
+          "type": "ox",
+          "category": "투자전략",
+          "question": "샤프비율이 높을수록 위험 대비 수익 효율이 좋다.",
+          "answer": true,
+          "explanation": "샤프비율 = (수익률 - 무위험률) ÷ 표준편차. 높을수록 단위 위험당 초과 수익이 크다.",
+          "tier": "diamond"
+        },
+        {
+          "id": 80,
+          "type": "ox",
+          "category": "시나리오",
+          "question": "WACC가 기업의 기대 수익률(IRR)보다 높으면 해당 투자는 가치를 파괴한다.",
+          "answer": true,
+          "explanation": "IRR < WACC이면 투자 수익이 자본 조달 비용을 못 미쳐 가치가 파괴된다.",
+          "tier": "diamond"
+        },
+        {
+          "id": 81,
+          "type": "multiple_choice",
+          "category": "시나리오",
+          "question": "글로벌 경기 침체 우려로 달러 강세가 지속되고 있다. 신흥국 자산에 미치는 일반적 영향은?",
+          "options": [
+            "A. 신흥국 자산에 자금 유입",
+            "B. 신흥국 자금 이탈, 통화 약세, 자산 가격 하락 압력",
+            "C. 신흥국 수출 증가",
+            "D. 금리 인하 유발"
+          ],
+          "answer": "B",
+          "explanation": "달러 강세 시 신흥국에서 달러 표시 자산으로 자금이 이탈해 신흥국 통화 약세와 자산 가격 하락 압력이 발생한다.",
+          "tier": "diamond"
+        },
+        {
+          "id": 82,
+          "type": "multiple_choice",
+          "category": "시나리오",
+          "question": "리츠(REITs)가 금리 상승기에 약세를 보이는 이유는?",
+          "options": [
+            "A. 배당을 줄이기 때문",
+            "B. 금리 상승 시 조달 비용 증가 + 채권 대비 배당 매력 감소로 가격 하락",
+            "C. 부동산 공급 증가",
+            "D. 주식 시장과 완전 무관"
+          ],
+          "answer": "B",
+          "explanation": "리츠는 부채를 활용하므로 금리 상승 시 이자 부담이 늘고, 채권 금리 상승으로 상대적 배당 매력도 감소한다.",
+          "tier": "diamond"
+        },
+        {
+          "id": 83,
+          "type": "multiple_choice",
+          "category": "재무지표",
+          "question": "'경제적 해자(Economic Moat)'가 강한 기업의 특징이 아닌 것은?",
+          "options": [
+            "A. 강력한 브랜드 인지도",
+            "B. 높은 전환 비용(switching cost)",
+            "C. 특허·기술 독점",
+            "D. 높은 부채비율과 낮은 ROE"
+          ],
+          "answer": "D",
+          "explanation": "경제적 해자는 지속 가능한 경쟁 우위를 뜻한다. 높은 부채와 낮은 ROE는 해자와 무관하거나 오히려 부정적이다.",
+          "tier": "diamond"
+        },
+        {
+          "id": 84,
+          "type": "ox",
+          "category": "시나리오",
+          "question": "'블랙 스완' 이벤트는 사전에 예측하기 어렵지만 발생 후에는 설명이 가능한 경우가 많다.",
+          "answer": true,
+          "explanation": "블랙 스완은 사전 예측이 어렵지만 사후에는 원인이 명확히 보이는 사후 편향의 대표 사례다.",
+          "tier": "diamond"
+        }
+      ]
+    },
+    "master": {
+      "tier": "마스터",
+      "name": "마스터 승급 시험",
+      "passing_score": 90,
+      "time_limit_minutes": 50,
+      "description": "최고급 종합 응용 문제",
+      "questions": [
+        {
+          "id": 85,
+          "type": "multiple_choice",
+          "category": "재무지표",
+          "question": "DDM(배당할인모델)에서 주식의 내재가치 계산식은?",
+          "options": [
+            "A. 주가 = 배당금 × (1 + g)",
+            "B. 주가 = D1 ÷ (r - g)  (D1: 내년 배당, r: 요구수익률, g: 성장률)",
+            "C. 주가 = EPS ÷ WACC",
+            "D. 주가 = FCF × PBR"
+          ],
+          "answer": "B",
+          "explanation": "고든 성장 모델(Gordon Growth Model): P = D1 ÷ (r - g). 안정적 배당 성장 기업 가치 평가에 사용된다.",
+          "tier": "master"
+        },
+        {
+          "id": 86,
+          "type": "multiple_choice",
+          "category": "파생상품",
+          "question": "옵션 '베가(Vega)'의 의미는?",
+          "options": [
+            "A. 기초자산 가격 변화에 대한 민감도",
+            "B. 내재 변동성 1% 변화에 대한 옵션 가격 변화량",
+            "C. 시간 가치 감소율",
+            "D. 금리 변화에 대한 민감도"
+          ],
+          "answer": "B",
+          "explanation": "베가는 내재 변동성(IV) 변화에 따른 옵션 가격 민감도다. 변동성이 높아지면 옵션 프리미엄이 커진다.",
+          "tier": "master"
+        },
+        {
+          "id": 87,
+          "type": "multiple_choice",
+          "category": "거시경제",
+          "question": "'테일러 준칙(Taylor Rule)'이 설명하는 것은?",
+          "options": [
+            "A. 주식 가치 평가 모델",
+            "B. 인플레이션과 GDP 갭을 고려해 적정 기준금리를 도출하는 규칙",
+            "C. 환율 결정 모델",
+            "D. 채권 수익률 곡선 이론"
+          ],
+          "answer": "B",
+          "explanation": "테일러 준칙은 현재 인플레이션과 경제 산출 갭을 기반으로 중앙은행의 적정 기준금리를 계산하는 통화정책 가이드라인이다.",
+          "tier": "master"
+        },
+        {
+          "id": 88,
+          "type": "multiple_choice",
+          "category": "투자전략",
+          "question": "'팩터 투자(Factor Investing)'에서 '퀄리티 팩터'가 선호하는 기업 특성은?",
+          "options": [
+            "A. 주가 모멘텀이 강한 기업",
+            "B. 높은 ROE, 낮은 부채, 안정적 이익 성장",
+            "C. 시가총액이 작은 소형주",
+            "D. 배당수익률이 높은 기업"
+          ],
+          "answer": "B",
+          "explanation": "퀄리티 팩터는 높은 수익성(ROE), 견실한 재무구조, 안정적 이익 등을 기준으로 우량 기업을 선별한다.",
+          "tier": "master"
+        },
+        {
+          "id": 89,
+          "type": "multiple_choice",
+          "category": "파생상품",
+          "question": "'변동성 스마일(Volatility Smile)'이란?",
+          "options": [
+            "A. 만기별 변동성 차이",
+            "B. 동일 만기 옵션에서 외가격·내가격 옵션의 내재 변동성이 등가격보다 높아 U자형 곡선을 나타내는 현상",
+            "C. 주가 급등 시 변동성 감소",
+            "D. 금리 상승과 변동성의 관계"
+          ],
+          "answer": "B",
+          "explanation": "변동성 스마일은 Black-Scholes 모델이 가정한 로그정규분포와 달리 실제 옵션 시장에서 꼬리 위험이 반영된 현상이다.",
+          "tier": "master"
+        },
+        {
+          "id": 90,
+          "type": "multiple_choice",
+          "category": "거시경제",
+          "question": "'피셔 효과(Fisher Effect)'의 핵심 내용은?",
+          "options": [
+            "A. 환율과 인플레이션의 관계",
+            "B. 명목금리 = 실질금리 + 기대인플레이션",
+            "C. 주가와 금리의 역의 관계",
+            "D. GDP 성장률과 고용의 관계"
+          ],
+          "answer": "B",
+          "explanation": "피셔 효과: 명목금리는 실질금리와 기대 인플레이션의 합으로 결정된다.",
+          "tier": "master"
+        },
+        {
+          "id": 91,
+          "type": "multiple_choice",
+          "category": "시나리오",
+          "question": "A기업: WACC 8%, 향후 5년 FCF 각각 100·120·140·160·180억, 5년 후 터미널 밸류 3,000억. 기업 가치(EV)를 DCF로 구하면 대략?",
+          "options": [
+            "A. 약 2,200억",
+            "B. 약 2,700억",
+            "C. 약 3,500억",
+            "D. 약 5,000억"
+          ],
+          "answer": "B",
+          "explanation": "각 FCF의 현재 가치 합 ≈ 580억 + 터미널 밸류 현재 가치 ≈ 3,000 ÷ (1.08)^5 ≈ 2,041억. 합계 약 2,620억으로 B가 가장 근접.",
+          "tier": "master"
+        },
+        {
+          "id": 92,
+          "type": "multiple_choice",
+          "category": "시나리오",
+          "question": "내재 변동성(IV)이 역사적 변동성(HV) 대비 매우 높을 때, 옵션 매도 전략이 유리한 이유는?",
+          "options": [
+            "A. IV 고점에서 옵션을 팔면 프리미엄을 크게 수취하고, 이후 IV 하락 시 옵션 가치 감소로 이익",
+            "B. IV가 높으면 기초자산 가격이 반드시 오른다",
+            "C. 옵션 매도 시 프리미엄을 지불한다",
+            "D. HV > IV일 때 매도가 유리하다"
+          ],
+          "answer": "A",
+          "explanation": "IV가 HV보다 과도하게 높으면 옵션 프리미엄이 과대평가된 것으로, 매도해 프리미엄을 수취하고 IV 정상화 시 이익을 얻는 전략이 유효하다.",
+          "tier": "master"
+        },
+        {
+          "id": 93,
+          "type": "multiple_choice",
+          "category": "시나리오",
+          "question": "포트폴리오 매니저가 '정보 비율(Information Ratio)'을 최대화하려 한다. 가장 적절한 접근은?",
+          "options": [
+            "A. 벤치마크와 동일한 포트폴리오 구성",
+            "B. 벤치마크 대비 초과 수익(알파)을 높이면서 추적 오차(Tracking Error)를 효율적으로 관리",
+            "C. 베타를 최대한 높인다",
+            "D. 분산투자를 최소화한다"
+          ],
+          "answer": "B",
+          "explanation": "정보 비율 = 알파 ÷ 추적 오차. 초과 수익을 높이면서 변동성(TE)을 적정 수준으로 유지하는 것이 핵심이다.",
+          "tier": "master"
+        },
+        {
+          "id": 94,
+          "type": "multiple_choice",
+          "category": "시나리오",
+          "question": "글로벌 경기 침체 우려, 달러 강세, 금리 인상 사이클 종료 임박. 이 복합 상황에서 가장 합리적인 자산 배분 전략은?",
+          "options": [
+            "A. 신흥국 주식 비중 대폭 확대",
+            "B. 미국 장기 국채 비중 확대 + 달러 현금 보유 + 방어적 배당주 일부",
+            "C. 레버리지 ETF로 공격적 베팅",
+            "D. 원자재에 100% 집중"
+          ],
+          "answer": "B",
+          "explanation": "금리 인상 종료 임박 시 장기 국채 가격 상승 기대, 달러 강세로 달러 현금 매력, 침체 우려로 방어주 선호가 복합적으로 작용한다.",
+          "tier": "master"
+        },
+        {
+          "id": 95,
+          "type": "multiple_choice",
+          "category": "시나리오",
+          "question": "A회사 주식을 100만 원어치 매수했다. 해당 주식의 베타=1.3, 포트폴리오 총액=1,000만 원. 이 주식이 포트폴리오 전체 베타에 기여하는 비중은?",
+          "options": [
+            "A. 0.013",
+            "B. 0.13",
+            "C. 1.3",
+            "D. 13"
+          ],
+          "answer": "B",
+          "explanation": "포트폴리오 기여 베타 = (비중 × 종목 베타) = (100/1000) × 1.3 = 0.13.",
+          "tier": "master"
+        },
+        {
+          "id": 96,
+          "type": "multiple_choice",
+          "category": "시나리오",
+          "question": "'경제적 이익(Economic Profit)'이 0보다 크다는 것의 의미는?",
+          "options": [
+            "A. 회계상 순이익이 플러스",
+            "B. 자본 조달 비용(WACC × 투하자본)을 초과한 초과 이익을 창출하고 있음",
+            "C. 부채가 없다",
+            "D. FCF가 플러스다"
+          ],
+          "answer": "B",
+          "explanation": "경제적 이익 = NOPAT - (WACC × 투하자본). 0 초과면 자본 비용을 넘는 진정한 가치 창출을 의미한다.",
+          "tier": "master"
+        },
+        {
+          "id": 97,
+          "type": "ox",
+          "category": "파생상품",
+          "question": "베가(Vega)가 큰 옵션일수록 내재 변동성 변화에 민감하다.",
+          "answer": true,
+          "explanation": "베가가 클수록 IV 변화가 옵션 가격에 더 큰 영향을 미친다. 장기 옵션, ATM 옵션이 베가가 크다.",
+          "tier": "master"
+        },
+        {
+          "id": 98,
+          "type": "ox",
+          "category": "거시경제",
+          "question": "테일러 준칙에 따르면 인플레이션이 목표치를 초과할 때 기준금리를 올려야 한다.",
+          "answer": true,
+          "explanation": "테일러 준칙은 인플레이션 갭이 양수일 때 기준금리 인상을 권고한다.",
+          "tier": "master"
+        },
+        {
+          "id": 99,
+          "type": "ox",
+          "category": "투자전략",
+          "question": "샤프비율은 총위험(표준편차)을 기준으로 하고, 트레이너 비율은 체계적 위험(베타)을 기준으로 한다.",
+          "answer": true,
+          "explanation": "샤프 비율 = 초과수익 ÷ 표준편차, 트레이너 비율 = 초과수익 ÷ 베타. 개별 자산과 포트폴리오 평가에 각각 활용된다.",
+          "tier": "master"
+        },
+        {
+          "id": 100,
+          "type": "ox",
+          "category": "시나리오",
+          "question": "FCF 수익률(FCF ÷ 시가총액)이 국채 수익률보다 높다면 해당 주식은 채권 대비 상대적 매력이 있다고 볼 수 있다.",
+          "answer": true,
+          "explanation": "FCF 수익률이 채권 수익률보다 높으면 위험 자산인 주식에 프리미엄을 감안해도 상대적으로 매력적인 상태다.",
+          "tier": "master"
+        },
+        {
+          "id": 101,
+          "type": "ox",
+          "category": "시나리오",
+          "question": "변동성 스마일 현상은 Black-Scholes 모델이 시장의 실제 위험을 완전히 설명하지 못함을 시사한다.",
+          "answer": true,
+          "explanation": "BS 모델은 수익률이 정규분포를 따른다고 가정하지만, 실제 시장은 꼬리 위험이 크고 이것이 변동성 스마일로 반영된다.",
+          "tier": "master"
+        },
+        {
+          "id": 102,
+          "type": "multiple_choice",
+          "category": "시나리오",
+          "question": "기업의 '내재가치 > 시장가치'인 상태가 지속되고 있다. 가치투자자의 관점에서 이 상황은?",
+          "options": [
+            "A. 매도 신호",
+            "B. 시장의 비효율로 인한 매수 기회로 인식하며 인내심을 갖고 보유 또는 추가 매수",
+            "C. 내재가치 계산이 잘못됐다는 신호",
+            "D. 즉시 전량 매도"
+          ],
+          "answer": "B",
+          "explanation": "가치투자의 핵심은 내재가치 대비 저평가 시 매수해 시장이 그 가치를 인식할 때까지 기다리는 인내심이다.",
+          "tier": "master"
+        },
+        {
+          "id": 103,
+          "type": "multiple_choice",
+          "category": "시나리오",
+          "question": "A국이 대규모 재정 적자를 국채 발행으로 충당하고 있다. 이것이 금리에 미치는 일반적 영향은?",
+          "options": [
+            "A. 금리 하락",
+            "B. 국채 공급 증가로 국채 가격 하락, 금리 상승 압력",
+            "C. 금리 무변화",
+            "D. 통화량 감소"
+          ],
+          "answer": "B",
+          "explanation": "국채 발행 증가는 채권 공급 과잉을 유발해 국채 가격 하락, 즉 금리 상승 압력으로 이어진다.",
+          "tier": "master"
+        }
+      ]
+    }
+  }
+}

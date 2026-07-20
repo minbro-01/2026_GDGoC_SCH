@@ -10,6 +10,11 @@ import Lesson from './pages/Lesson'
 import FinalQuiz from './pages/FinalQuiz'
 import Glossary from './pages/Glossary'
 import Placeholder from './pages/Placeholder'
+import JudgmentHub from './pages/JudgmentHub'
+import JudgmentScenario from './pages/JudgmentScenario'
+import JudgmentChecklist from './pages/JudgmentChecklist'
+import JudgmentResult from './pages/JudgmentResult'
+import JudgmentHistory from './pages/JudgmentHistory'
 import './App.css'
 
 function Protected({ children }) {
@@ -81,6 +86,11 @@ function App() {
             </Protected>
           }
         />
+        <Route path="/judgment" element={<Protected><JudgmentHub /></Protected>} />
+        <Route path="/judgment/history" element={<Protected><JudgmentHistory /></Protected>} />
+        <Route path="/judgment/results/:attemptId" element={<Protected><JudgmentResult /></Protected>} />
+        <Route path="/judgment/:id/checklist" element={<Protected><JudgmentChecklist /></Protected>} />
+        <Route path="/judgment/:id" element={<Protected><JudgmentScenario /></Protected>} />
         <Route
           path="/glossary"
           element={

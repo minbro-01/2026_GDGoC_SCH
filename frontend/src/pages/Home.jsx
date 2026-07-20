@@ -34,6 +34,10 @@ export default function Home() {
       </section>
 
       <nav className="menu-grid">
+        <Link className="menu-card highlight" to="/judgment">
+          <h2>투자 판단 훈련</h2>
+          <p>과거 시점에서 근거·리스크·판단 변경 기준 연습</p>
+        </Link>
         <Link className="menu-card" to="/edu">
           <h2>투자 교육</h2>
           <p>경제 · 금융 · 주식 · 은어 4챕터</p>
