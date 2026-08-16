@@ -185,9 +185,11 @@ CREATE TABLE IF NOT EXISTS sim_orders (
   price DECIMAL(18,4) NULL,  -- LIMIT 지정가
   status ENUM('filled','open','cancelled') NOT NULL,
   executed_price DECIMAL(18,4) NULL,
+  client_order_id VARCHAR(64) NULL, -- 클라이언트 재시도로 인한 중복 주문 차단용
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   FOREIGN KEY (session_id) REFERENCES sim_sessions(id) ON DELETE CASCADE,
-  FOREIGN KEY (instrument_id) REFERENCES instruments(id)
+  FOREIGN KEY (instrument_id) REFERENCES instruments(id),
+  UNIQUE KEY uq_sim_orders_client (session_id, client_order_id)
 );
 
 CREATE TABLE IF NOT EXISTS sim_holdings (

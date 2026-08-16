@@ -7,7 +7,8 @@
     "dev": "node --watch src/index.js",
     "start": "node src/index.js",
     "test": "node --test",
-    "validate:content": "node scripts/validate-question-bank.js"
+    "validate:content": "node scripts/validate-question-bank.js",
+    "prepare:demo": "node scripts/prepare-demo.js"
   },
   "engines": {
     "node": ">=20"
