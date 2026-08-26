@@ -7,6 +7,8 @@ import authRouter from "./routes/auth.js";
 import surveyRouter from "./routes/survey.js";
 import eduRouter from "./routes/edu.js";
 import judgmentRouter from "./routes/judgment.js";
+import simRouter from "./routes/sim.js";
+import assistantRouter from "./routes/assistant.js";
 
 dotenv.config();
 
@@ -30,6 +32,8 @@ app.use("/api/auth", authRouter);
 app.use("/api/survey", surveyRouter);
 app.use("/api/edu", eduRouter);
 app.use("/api/judgment", judgmentRouter);
+app.use("/api/sim", simRouter);
+app.use("/api/assistant", assistantRouter);
 
 export function startServer(port = process.env.PORT || 4000) {
   return app.listen(port, () => {
